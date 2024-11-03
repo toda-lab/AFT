@@ -118,3 +118,28 @@ For example, you can find the list of attributes for _Adult_ with the following 
 $ head -1 Datasets/Adult.csv
 age,workclass,fnlwgt,education,martial_status,occupation,relationship,race,sex,capital_gain,capital_loss,hours_per_week,native_country,Class
 ```
+
+## How to cite
+Please cite our paper [ASE'24](https://doi.org/10.1145/3691620.3695481). 
+
+Bibtex:
+```
+@inproceedings{10.1145/3691620.3695481,
+author = {Zhao, Zhenjiang and Toda, Takahisa and Kitamura, Takashi},
+title = {Approximation-guided Fairness Testing through Discriminatory Space Analysis},
+year = {2024},
+isbn = {9798400712487},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3691620.3695481},
+doi = {10.1145/3691620.3695481},
+booktitle = {Proceedings of the 39th IEEE/ACM International Conference on Automated Software Engineering},
+pages = {1007–1018},
+numpages = {12},
+keywords = {machine learning, algorithmic fairness, fairness testing, decision tree, sampling algorithm},
+location = {Sacramento, CA, USA},
+series = {ASE '24}
+}
+```
+## License
+AFT is licensed under [The MIT License](LICENSE).
